@@ -340,6 +340,21 @@ $(document).ready(function () {
       $('#all_bank').css('position', 'fixed');
 
     })
+    ///   
+     $(".exit_ser").click(function () {
+      $('#search').css('opacity', '0');
+      $('#search').css('z-index', '-1');
+      $('#search').css('position', 'fixed');
+
+    })
+    $(".img_last").click(function () {
+      $('#search').css('opacity', '1');
+      $('#search').css('z-index', '1');
+      $('#search').css('position', 'absolute');
+
+    })
+
+    ///
     $(".bars_menu").click(function () {
       $('#all_bank').css('opacity', '0.96');
       $('#all_bank').css('z-index', '10000');

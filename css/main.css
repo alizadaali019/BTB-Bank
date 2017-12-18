@@ -55,6 +55,8 @@ body {
         float: right;
         border-radius: 39px;
         margin-top: 4%; }
+      body .layout ul .img_ax {
+        cursor: pointer; }
       body .layout ul .two {
         background: white;
         height: 13.66%; }
@@ -388,6 +390,7 @@ body {
             font-size: 18px;
             margin-top: 28px; }
         body .right_content .mezenne .mar_0 .exit_right {
+          cursor: pointer;
           width: 22px;
           float: right;
           margin: 30px 5px 0px 0px; }
@@ -772,11 +775,11 @@ body {
                   position: relative;
                   float: right; }
   body #all_bank {
-    transition: .3s ease;
     width: 100%;
     background: white;
     margin-top: -51%;
     position: fixed;
+    transition: .3s ease;
     opacity: 0;
     z-index: -1; }
     body #all_bank .header {
@@ -997,6 +1000,68 @@ body {
       body #fotter .right_fot ul .fb {
         display: inline-block;
         width: 30%; }
+  body #search {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    transition: .3s ease;
+    opacity: 0;
+    z-index: -1;
+    top: 0;
+    background: rgba(0, 0, 0, 0.7); }
+    body #search .exit_ser {
+      width: 34px;
+      float: right;
+      margin: 41px 39px 0 0;
+      cursor: pointer; }
+    body #search .search_in {
+      display: inline-block;
+      width: 55%;
+      height: 25%;
+      top: 40%;
+      left: 50%;
+      position: absolute;
+      transform: translateX(-50%); }
+      body #search .search_in .input_search {
+        width: 100%;
+        height: 85px;
+        background: white;
+        border-radius: 65px; }
+        body #search .search_in .input_search input {
+          width: 74%;
+          margin: 30px 0 0 45px;
+          border: none;
+          outline: none;
+          font-size: 26px;
+          height: 30px;
+          font-weight: 600; }
+        body #search .search_in .input_search .search_lup {
+          display: inline-block;
+          position: absolute;
+          width: 5.5%;
+          margin: 22px 0 0 64px; }
+      body #search .search_in .example {
+        left: 50%;
+        width: 75%;
+        margin-top: 15px;
+        position: absolute;
+        transform: translateX(-50%); }
+        body #search .search_in .example p {
+          color: rgba(255, 255, 255, 0.5);
+          display: inline-block; }
+        body #search .search_in .example ul {
+          display: inline-block;
+          list-style: none; }
+          body #search .search_in .example ul li {
+            margin-right: 5px;
+            display: inline-block; }
+            body #search .search_in .example ul li a {
+              color: rgba(255, 255, 255, 0.5);
+              border: 1px solid rgba(255, 255, 255, 0.5);
+              text-decoration: none;
+              border-radius: 24px;
+              padding: 4px 5px 4px 5px;
+              font-size: 12px; }
 
 .sa {
   width: 100%;
