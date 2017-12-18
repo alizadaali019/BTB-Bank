@@ -933,6 +933,69 @@ body {
           margin-bottom: 15px; }
           body #all_bank .center_content .right_con .end li a {
             background: white; }
+  body #fotter {
+    position: absolute;
+    width: 100%;
+    top: 87%;
+    float: right;
+    left: 0%; }
+    body #fotter .right_fot ul {
+      width: 97%;
+      position: absolute;
+      float: right;
+      list-style: none;
+      display: inline-block; }
+      body #fotter .right_fot ul li {
+        display: inline-block;
+        float: right; }
+      body #fotter .right_fot ul .electron_h {
+        width: 25%; }
+        body #fotter .right_fot ul .electron_h .img_19 {
+          width: 40%;
+          height: 36px;
+          margin: 8px 0 0 25px;
+          background: url("../photo/pico.png") 2px 551px; }
+      body #fotter .right_fot ul .fb {
+        width: 36%; }
+        body #fotter .right_fot ul .fb .img_32 {
+          display: inline-block;
+          width: 23%;
+          height: 36px;
+          margin: 8px 0 0 -44px;
+          background: url("../photo/pico.png") 2px 588px; }
+        body #fotter .right_fot ul .fb p {
+          display: inline-block;
+          margin-top: 10px;
+          color: white;
+          width: 130px;
+          position: absolute; }
+      body #fotter .right_fot ul .iso {
+        width: 30%;
+        display: inline-block; }
+        body #fotter .right_fot ul .iso .img {
+          width: 15%;
+          margin-top: -23px;
+          display: inline-block; }
+        body #fotter .right_fot ul .iso .des {
+          display: inline-block;
+          width: 82%; }
+          body #fotter .right_fot ul .iso .des h5 {
+            font-size: 12px;
+            color: white;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 10px;
+            margin-bottom: 6px; }
+          body #fotter .right_fot ul .iso .des p {
+            font-size: 12px;
+            color: white;
+            display: inline-block; }
+      body #fotter .right_fot ul .electron_h {
+        width: 30%;
+        display: inline-block; }
+      body #fotter .right_fot ul .fb {
+        display: inline-block;
+        width: 30%; }
 
 .sa {
   width: 100%;
