@@ -174,8 +174,8 @@ body {
           list-style: none; }
           body .for_life .life_header .row .bar ul li, body .for_life .life_header .row .bar_work ul li, body .for_life .life_header .row .bar_about ul li, body .for_life .work_header .row .bar ul li, body .for_life .work_header .row .bar_work ul li, body .for_life .work_header .row .bar_about ul li, body .for_life .about_header .row .bar ul li, body .for_life .about_header .row .bar_work ul li, body .for_life .about_header .row .bar_about ul li, body .for_work .life_header .row .bar ul li, body .for_work .life_header .row .bar_work ul li, body .for_work .life_header .row .bar_about ul li, body .for_work .work_header .row .bar ul li, body .for_work .work_header .row .bar_work ul li, body .for_work .work_header .row .bar_about ul li, body .for_work .about_header .row .bar ul li, body .for_work .about_header .row .bar_work ul li, body .for_work .about_header .row .bar_about ul li, body .for_about .life_header .row .bar ul li, body .for_about .life_header .row .bar_work ul li, body .for_about .life_header .row .bar_about ul li, body .for_about .work_header .row .bar ul li, body .for_about .work_header .row .bar_work ul li, body .for_about .work_header .row .bar_about ul li, body .for_about .about_header .row .bar ul li, body .for_about .about_header .row .bar_work ul li, body .for_about .about_header .row .bar_about ul li {
             background: #D9424C;
-            height: 22%;
-            margin-bottom: 14%; }
+            height: 16%;
+            margin-bottom: 19%; }
     body .for_life .life_body, body .for_life .work_body, body .for_life .about_body, body .for_work .life_body, body .for_work .work_body, body .for_work .about_body, body .for_about .life_body, body .for_about .work_body, body .for_about .about_body {
       position: absolute;
       width: 100%;
