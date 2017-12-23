@@ -344,8 +344,12 @@ body{
                 width: 10%;
                 display: inline-block;
                 height: 100%;
-                // background: blue;
-                float: left;
+                position: absolute;
+                left: 15px;
+                bottom: -76%;
+                .img_a{
+                    width: 100%;
+                }
             }
             .dil{
                 text-align: center;
@@ -375,7 +379,10 @@ body{
                 height: 100%;
                 position: absolute;
                 right: 15px;
-                bottom: -79%;
+                bottom: -74%;
+                .img_f{
+                    width: 100%;
+                }
             }
         }
     }
@@ -389,79 +396,112 @@ body{
                 background: white;
                 z-index: 10;
             .call_number{
+                background: url(../photo/pico.png) 1px 520px;
                 transition: .3s ease;
-                // background: url(../photo/pico.png) 25px 465px;
-                height: 116%;
-                float: left;
+                height: 54%;
                 display: inline-block;
-                margin-top: 22px;
-                padding: 12px 20px 0 15px;
-                background-size: cover;
-                width: 22%;
+                background-size: unset;
+                position: absolute;
+                top: 25%;
+                width: 17%;
+                left: 2%;
                 opacity: 0;
-                .nnm{
-                    width: 39%;
-                    float: left;
-                    margin: -13px 0 0 32px;
-                }
+        
             }
             .last_top_mobile{
                 transition: .3s ease;                
                 position: absolute;
                 display: inline-block;
                 width: 65%;
+                margin-left: 21%;
                 .im_l{
                     width: 30%;
-                    margin: 2% 0 0 29%;
+                    margin: 4% 0 0 29%;
+                    @media only screen and (max-width: 514px) and (min-width: 0px){
+                        width: 41%;
+                        margin: 10% 0 0 18%;
+                    }
+                      @media only screen and (max-width: 570px) and (min-width: 515px){
+                        width: 37%;
+                        margin: 8% 0 0 21%;
+                    }
+                    @media only screen and(max-width:670px)and(min-width:570px){
+                        width: 30%;
+                        margin: 6% 0 0 29%;
+                    }
+                        
+                    // @media(max-width:){
+                        
+                    // }
+                    // @media(max-width:){
+                    //     width: 36%;
+                    //     margin: 9% 0 0 19%
+                    // }
+                    // @media(max-width:670px){
+                    //     width: 34%;
+                    //     margin: 7% 0 0 26%;
+                    // }
+                    //   @media(max-width:670px){
+                    //     width: 34%;
+                    //     margin: 3% 0 0 26%;
+                    // }
                 }
             }
             .hamburger{
                 width: 10%;
                 float: right;
-                margin-top: 3.5%;
+                margin-top: 4.5%;
                 .menu-container {
-  position:absolute;
+                    position:absolute;
+                }
+                .menu {
+                position: relative;
+                width: $barWidth;
+                height: $menuHeight;
+                cursor: pointer;
+                border-top: $barHeight solid $menuColor; 
+                border-bottom: $barHeight solid $menuColor;
+                box-sizing: border-box;
+                transition: $animation;
+                transform-origin: center;
+                
+                &:before, &:after {
+                    content: "";
+                    background-color: $menuColor;
+                    width: $barWidth;
+                    height: $barHeight;
+                    position: absolute;
+                    top: 50%; 
+                    transform: translateY(-50%);
+                    transform-origin: center;
+                    transition: $animation;
+                    @media(max-width:570px){
+                    // height: 25px;
+                    width: 32px; 
+                }
+                }
+                &.active {
+                    transform: rotate(45deg);
+                    border-color: transparent;
+                    &:after { transform: translateY(-50%) rotate(-90deg); }
+                }
+                @media(max-width:570px){
+                height: 25px;
+                width: 32px; 
+                }
 
-}
-
-
-.menu {
-  position: relative;
-  width: $barWidth;
-  height: $menuHeight;
-  cursor: pointer;
-  border-top: $barHeight solid $menuColor; 
-  border-bottom: $barHeight solid $menuColor;
-  box-sizing: border-box;
-  transition: $animation;
-  transform-origin: center;
-  
-  &:before, &:after {
-    content: "";
-    background-color: $menuColor;
-    width: $barWidth;
-    height: $barHeight;
-    position: absolute;
-    top: 50%; 
-    transform: translateY(-50%);
-    transform-origin: center;
-    transition: $animation;
-  }
-  
-//   &:hover {
-//     transform: scale(1.1);
-//   }
-  
-  &.active {
-    transform: rotate(45deg);
-    border-color: transparent;
-    &:after { transform: translateY(-50%) rotate(-90deg); }
-  }
-}
+                 @media only screen and(max-width:570px)and(min-width:450px){
+                       margin-top: 20px;
+                    }
+                        
+                }
+                @media(max-width:700px){
+                    margin-right: 4%;
+                }
             }
         }
   .content_carusel{
-            height: 45%;
+            height: 40%;
             position: relative;
             margin-top: 125px;
             .owl-carusel{
@@ -471,6 +511,9 @@ body{
                         margin-top:  18px !important;
                         margin-left: 40%!important;
                     }
+                }
+                @media(max-width:570px){
+                    height: 30%;
                 }
             }
         }
@@ -508,6 +551,10 @@ body{
                 .im_l{
                     width: 30%;
                     margin: 4% 0 0 29%;
+                    @media(max-width:570px){
+                        width: 36%;
+                        margin: 6% 0 0 19%
+                    }
                 }
             }
             .hamburger{
@@ -1260,6 +1307,9 @@ body{
                     font-size: 25px;
                     line-height: 1.5;
                 }
+                .vc{
+                    cursor: pointer;
+                }
             }
             .content_work{
                 z-index: 1;
@@ -1873,6 +1923,9 @@ position: relative !important;
     }
     .active{
         background: #D9424C;
+    }
+    @media(max-width:565px){
+        margin-left:48.5%;
     }
 }
 .owl-nav{
