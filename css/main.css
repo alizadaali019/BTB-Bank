@@ -27,6 +27,8 @@ body {
       width: 95%;
       height: 100vh;
       list-style: none; }
+      body .layout ul li {
+        width: 100%; }
       body .layout ul .bars_menu {
         background-color: #D9424C;
         cursor: pointer;
@@ -36,13 +38,14 @@ body {
           text-decoration: none;
           position: absolute;
           font-size: 10px;
-          margin: 58px 0 0 25px; }
+          top: 8%;
+          left: 20%; }
         body .layout ul .bars_menu .bar_menu {
           background: white;
           height: 3px;
           width: 28.5%;
           margin-top: 29px;
-          margin-left: 35%;
+          left: 33%;
           position: absolute; }
         body .layout ul .bars_menu .first {
           margin-top: 20px; }
@@ -65,7 +68,7 @@ body {
         height: 13.66%; }
         body .layout ul .two a {
           position: absolute;
-          margin: 9px 0 0 33px; }
+          margin: 10% 0 0 29%; }
           body .layout ul .two a .span_one {
             border-radius: 100%;
             position: fixed;
@@ -324,7 +327,7 @@ body {
       margin-left: 21%; }
       body .sm_m .header_mobile .last_top_mobile .im_l {
         width: 40%;
-        margin: 4% 0 0 24%; }
+        margin: 2.6% 0 0 24%; }
         @media only screen and (max-width: 514px) and (min-width: 0px) {
           body .sm_m .header_mobile .last_top_mobile .im_l {
             width: 72%;
@@ -379,7 +382,7 @@ body {
             margin-top: 54%; } }
         @media only screen and (max-width: 570px) and (min-width: 450px) {
           body .sm_m .header_mobile .hamburger .menu {
-            margin-top: 20px; } }
+            margin-top: 28px; } }
       @media (max-width: 700px) {
         body .sm_m .header_mobile .hamburger {
           margin-right: 4%; } }

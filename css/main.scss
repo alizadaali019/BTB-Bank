@@ -44,6 +44,9 @@ body{
             width: 95%;
             height: 100vh;
             list-style: none;
+            li{
+                width: 100%;
+            }
             .bars_menu{
                 background-color: #D9424C;
                 cursor: pointer;                
@@ -53,14 +56,16 @@ body{
                     text-decoration: none;
                     position: absolute;
                     font-size: 10px;
-                    margin: 58px 0 0 25px;
+                    // margin: 52% 0 0 21%;
+                    top: 8%;
+                    left: 20%;
                 }
                 .bar_menu{
                     background: white;
                     height: 3px;
                     width: 28.5%;
                     margin-top: 29px;                    
-                    margin-left: 35%;
+                    left: 33%;
                     position: absolute;
                 }
                 .first{
@@ -96,7 +101,7 @@ body{
                 // width: 50%;
                 a{
                     position: absolute;
-                    margin: 9px 0 0 33px;
+                    margin: 10% 0 0 29%;
                     .span_one{
                         // background-size: contain;
                         // background-repeat: no-repeat;
@@ -420,7 +425,7 @@ body{
                 margin-left: 21%;
                 .im_l{
                     width: 40%;
-                    margin: 4% 0 0 24%;
+                    margin: 2.6% 0 0 24%;
                     @media only screen and (max-width: 514px) and (min-width: 0px){
                         width: 72%;
                         margin: 4% 0 0 4%;
@@ -497,7 +502,7 @@ body{
                 }
 
                  @media only screen and(max-width:570px)and(min-width:450px){
-                       margin-top: 20px;
+                       margin-top: 28px;
                     }
                         
                 }
