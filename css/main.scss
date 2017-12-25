@@ -318,7 +318,7 @@ body{
             .search_big{
                 display: inline-block;
                 position: absolute;
-                width: 7%;
+                width: 5%;
                 right: 32px;
                 margin-top: 11px;
             }
@@ -355,6 +355,8 @@ body{
             .dil{
                 text-align: center;
                 width: 93%;
+                position: absolute;
+                bottom: 11%;
                 ul{
                     list-style: none;
                     li{
@@ -365,6 +367,7 @@ body{
                             color: black;
                             padding: 5px 3px 5px 3px;
                             border-radius: 100%;
+                            font-size: 10px
                         }
                     }
                     .bor{
@@ -404,7 +407,7 @@ body{
                 background-size: unset;
                 position: absolute;
                 top: 25%;
-                width: 22%;
+                width: 17%;
                 left: 2%;
                 opacity: 0;
         

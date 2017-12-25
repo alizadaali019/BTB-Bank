@@ -242,7 +242,7 @@ body {
       body .fotter_mob .input_mob .search_big {
         display: inline-block;
         position: absolute;
-        width: 7%;
+        width: 5%;
         right: 32px;
         margin-top: 11px; }
     body .fotter_mob .btn_mob {
@@ -272,7 +272,9 @@ body {
           width: 100%; }
       body .fotter_mob .fotter_last .dil {
         text-align: center;
-        width: 93%; }
+        width: 93%;
+        position: absolute;
+        bottom: 11%; }
         body .fotter_mob .fotter_last .dil ul {
           list-style: none; }
           body .fotter_mob .fotter_last .dil ul li {
@@ -282,7 +284,8 @@ body {
               text-decoration: none;
               color: black;
               padding: 5px 3px 5px 3px;
-              border-radius: 100%; }
+              border-radius: 100%;
+              font-size: 10px; }
           body .fotter_mob .fotter_last .dil ul .bor a {
             border: 1px solid black; }
       body .fotter_mob .fotter_last .face {
@@ -310,7 +313,7 @@ body {
       background-size: unset;
       position: absolute;
       top: 25%;
-      width: 22%;
+      width: 17%;
       left: 2%;
       opacity: 0; }
     body .sm_m .header_mobile .last_top_mobile {
